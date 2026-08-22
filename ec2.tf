@@ -16,7 +16,6 @@ resource "aws_instance" "web" {
     ami = "ami-0ac7b260cf76d8865"  #regional specific
     instance_type = "t3.micro"
 
-    provider = aws.snehal
     
     tags = {
         name ="web_server"

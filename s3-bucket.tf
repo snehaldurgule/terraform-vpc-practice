@@ -7,5 +7,4 @@ resource "aws_s3_bucket" "prod" {
 resource "aws_s3_bucket" "dev" {
 
     bucket = "dev-alias-s3-bucket-22aug"
-    provider = aws.sanjana
 }
