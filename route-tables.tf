@@ -14,7 +14,7 @@ resource "aws_route" "public_internet" {
 
 
 resource "aws_route_table" "private" {
-  vpc_id = aws_vpc.main.id
+  vpc_id = aws_vpc.main.id 
 
   tags = {
     Name = "Terraform Private Route Table"
